@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56,55,55);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+h1{
+    color: red;
+}
+
+.outer{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#colorbox{
+    width: 250px;
+    height: 250px;
+    background-color: #f0d821;
+    margin: 20px auto;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
